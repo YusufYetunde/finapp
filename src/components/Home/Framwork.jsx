@@ -1,8 +1,6 @@
 import { FRAMEWORK_DATA } from  "../../data/data"
-import useGradientUpdater from "../../hooks/useGradientUpdater";
 
 const Framework = () => {
-  const gradientRefs = useGradientUpdater();
 
   const frameworkGridSettings = [
     {
