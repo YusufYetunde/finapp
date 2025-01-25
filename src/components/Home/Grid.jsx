@@ -45,41 +45,30 @@ const FeaturesGrid = () => {
       cardFlexCol: "flex-col",
       cardGradientAfter: "after:content-[''] after:  after:absolute after:w-[213px] after:h-[213px] after:top-[40%] after:-right-[25%] after:blur-[30px] after:rounded-full",
       cardGradientBefore: "before:content-[''] before:  before:absolute before:w-[200px] before:h-[200px] before:-top-[10%] before:-left-[10%] before:blur-[30px] before:rounded-full",
-    }
+    },
+    {
+      cardImgPadding: "px-5 pt-5",
+      cardContentPadding: "px-6 pb-10",
+      cardColSpan: "lg:col-span-1 col-span-full",
+      cardFlexCol: "flex-col",
+      cardGradientAfter: "after:content-[''] after:  after:absolute after:w-[213px] after:h-[213px] after:-top-[10%] after:-left-[10%] after:blur-[40px] after:rounded-full",
+      cardGradientBefore: "before:content-[''] before:  before:absolute before:w-[200px] before:h-[200px] before:-bottom-[10%] before:-right-[10%] before:blur-[40px] before:rounded-full",
+    },
   ]
 
   return (
     <section className="py-[65px] text-black px-4">
       <h2 className="text-center lg:text-3xl md:text-2xl text-xl font-semibold font-montserrat max-w-[986px] mx-auto">
-        Never waste more than a day handing over design requirements with these
-        features:
+        Features
       </h2>
+      <h4 className="text-center lg:text-lg md:text-md text-xs font-montserrat max-w-[986px] mx-auto">Never waste more than a day handing over design requirements with these
+      features:</h4>
       <div className="max-w-[1200px] mx-auto lg:mt-[65px] mt-10">
         <div className="grid grid-cols-3 xxl:gap-10 xl:gap-8 lg:gap-6 gap-4 lg:mt-[65px] mt-10">
           {FEATURES_GRID_DATA?.map(
             ({ id, title, description, image }, index) => {
               return (
-                <motion.div
-                  key={id}
-                  className={`  rounded-3xl overflow-hidden p-[3px] md:min-h-[444px] min-h-auto ${featuredSettings[index].cardColSpan}`}
-                  ref={(el) => (gradientRefs.current[index] = el)}
-                  initial={{
-                    opacity: 0,
-                    y: 80,
-                  }}
-                  whileInView={{
-                    opacity: 1,
-                    y: 0,
-                  }}
-                  transition={{
-                    duration: 0.5,
-                    ease: "easeInOut",
-                  }}
-                  whileHover={{
-                    scale: 1.05,
-                  }}
-                >
-                  <div
+                <div
                     className={`rounded-3xl overflow-hidden bg-jet flex relative ${featuredSettings[index].cardFlexCol} ${featuredSettings[index].cardGradientAfter} ${featuredSettings[index].cardGradientBefore} justify-between items-center h-full lg:gap-y-[26px] md:gap-y-5 gap-y-4`}
                   >
                     <img className={`z-10 relative ${featuredSettings[index].cardImgPadding}`} src={image} alt="" />
@@ -92,7 +81,6 @@ const FeaturesGrid = () => {
                       </p>
                     </div>
                   </div>
-                </motion.div>
               );
             }
           )}

@@ -54,6 +54,13 @@ export const FEATURES_GRID_DATA = [
       "Easily Sync your User Stories, Epics, and Acceptance Criteria to Jira or Azure for production.",
     image: Images.sync_tools,
   },
+  {
+    id: "feat_grid_6",
+    title: "AI Process Map Generation",
+    description:
+      "Generate User Journeys and automate the Journey creation flow with AI",
+    image: Images.ai_process,
+  },
 ];
 
 export const UPLIFT_DELIVERY_DATA = [

@@ -1,6 +1,5 @@
 import { FRAMEWORK_DATA } from  "../../data/data"
 import useGradientUpdater from "../../hooks/useGradientUpdater";
-import { motion } from "framer-motion";
 
 const Framework = () => {
   const gradientRefs = useGradientUpdater();
