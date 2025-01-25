@@ -99,7 +99,11 @@ const Header = () => {
       </button>
     </div>
 
-    <div className="flex flex-col items-center justify-center max-w-[1020px] mx-auto text-center font-montserrat flex-1 relative z-10 mt-[100px] px-4">
+    <div className="flex flex-col items-center justify-center max-w-[1020px] mx-auto text-center font-montserrat flex-1 relative z-10 mt-[80px] px-4">
+      <div className>
+      <h4>5.0 (from 200+ reviews) </h4> 
+      <h4> Trusted by 4,000+ comapnies</h4>
+      </div>
       <h1 className="text-black font-bold xl:text-[64px] lg:text-5xl text-4xl leading-[1.25]">
       Revolutionizing Finance Through{" "}
         <span className="gradi-theme-text">Seamless Innovation.</span>
@@ -115,7 +119,7 @@ const Header = () => {
             className="lg:min-h-[56px] min-h-[50px] px-4 rounded-lg bg-transparent border-[1px] border-black w-full placeholder:text-cadet-gray outline-0 font-source-sans lg:text-base text-sm"
           />
           <button type="submit" className="bg-risd-blue text-white rounded-lg lg:min-h-[56px] min-h-[50px] text-nowrap text-base px-5 font-semibold hover:scale-105 transition-all ease-in-out duration-300">
-            Request Early Access
+            Download Link
           </button>
         </div>
       </form>

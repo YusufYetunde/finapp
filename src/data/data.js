@@ -83,35 +83,35 @@ export const UPLIFT_DELIVERY_DATA = [
 export const COLLECTIVE_DELIVERY_DATA = [
   {
     id: "collective_1",
-    icon: Icons.collection,
+    icon: Icons.quality_assur,
     title: "Project Coordination",
     description:
       "Ensure efficient planning, execution, and completion of projects, keeping them on schedule and within budget.",
   },
   {
     id: "collective_2",
-    icon: Icons.collection,
+    icon: Icons.quality_assur,
     title: "Risk Management",
     description:
       "Proactively identify and mitigate risks to prevent delays and project failures.",
   },
   {
     id: "collective_3",
-    icon: Icons.collection,
+    icon: Icons.quality_assur,
     title: "Communication",
     description:
       "They maintain open communication between teams and stakeholders, ensuring alignment and clarity on project goals.",
   },
   {
     id: "collective_4",
-    icon: Icons.collection,
+    icon: Icons.quality_assur,
     title: "Strategic Alignment",
     description:
       "They ensure projects align with and contribute to the organisation’s strategic objectives.",
   },
   {
     id: "collective_5",
-    icon: Icons.collection,
+    icon: Icons.quality_assur,
     title: "Scope Management",
     description:
       "Changes in project scope or resources, adapting strategies to ensure successful outcomes.",
