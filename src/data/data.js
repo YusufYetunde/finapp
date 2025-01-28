@@ -7,58 +7,48 @@ export const FEATURES_DATA = [
     title: "AI-Assisted Requirement Management",
     image: Images.ai_assisted,
   },
- /*  {
-    id: "feat_2",
-    title: "Efficient AI-Driven Communication",
-    image: Images.ai_driven,
-  },
-  {
-    id: "feat_3",
-    title: "Scope Creep Management",
-    image: Images.scope,
-  }, */
 ];
 
 export const FEATURES_GRID_DATA = [
   {
     id: "feat_grid_1",
-    title: "AI Process Map Generation",
+    title: "AI-Powered Code Review",
     description:
-      "Generate User Journeys and automate the Journey creation flow with AI",
+      "Enhance code quality with automated AI insights.",
     image: Images.ai_process,
   },
   {
     id: "feat_grid_2",
-    title: "Automatic AI Generated User Stories",
-    description: "Create User Stories with AI based on your User Journeys.",
+    title: "Smart Project Management Dashboard",
+    description: "Streamline workflows and optimize team productivity.",
     image: Images.user_stories,
   },
   {
     id: "feat_grid_3",
-    title: "AI Test Case Generation",
+    title: "Predictive Maintenance Analytics",
     description:
-      "Easily Sync your User Import Designs seamlessly to create Acceptance Criteria for every screen and each User Story. Stories, Epics, and Acceptance Criteria to Jira or Azure for production.",
+      "Prevent failures with data-driven insights. Leverage machine learning to identify potential software vulnerabilities and schedule proactive maintenance.",
     image: Images.ai_test_case,
   },
   {
     id: "feat_grid_4",
-    title: "Import your Designs",
+    title: "Seamless Third-Party Integrations",
     description:
-      "Import your designs from Figma seamlessly and use AI to narrate your user flows.",
+      "Connect and extend capabilities effortlessly.Build powerful connections with popular APIs and services like payment gateways, CRMs, and cloud storage tools.",
     image: Images.import_design,
   },
   {
     id: "feat_grid_5",
-    title: "Sync to your Tools",
+    title: "Customizable Client Portals",
     description:
-      "Easily Sync your User Stories, Epics, and Acceptance Criteria to Jira or Azure for production.",
+      "Provide clients with a secure, branded portal to monitor project progress, provide feedback, and manage deliverables.",
     image: Images.sync_tools,
   },
   {
     id: "feat_grid_6",
-    title: "AI Process Map Generation",
+    title: "Automated Deployment Pipeline",
     description:
-      "Generate User Journeys and automate the Journey creation flow with AI",
+      "Simplify release processes with zero downtime. Implement CI/CD tools that ensure efficient deployment, rollbacks, and updates without disrupting user experience.",
     image: Images.ai_process,
   },
 ];
