@@ -77,78 +77,78 @@ export const UPLIFT_DELIVERY_DATA = [
   },
 ];
 
-export const COLLECTIVE_DELIVERY_DATA = [
+export const Services_DATA = [
   {
     id: "collective_1",
     icon: Icons.quality_assur,
-    title: "Project Coordination",
+    title: "Custom Software Development",
     description:
-      "Ensure efficient planning, execution, and completion of projects, keeping them on schedule and within budget.",
+      "Tailored software solutions designed to meet unique business needs, from web applications to enterprise systems.",
   },
   {
     id: "collective_2",
     icon: Icons.quality_assur,
-    title: "Risk Management",
+    title: "Mobile App Development",
     description:
-      "Proactively identify and mitigate risks to prevent delays and project failures.",
+      "Design and development of user-friendly, high-performance mobile applications for iOS, Android, and cross-platform solutions.",
   },
   {
     id: "collective_3",
     icon: Icons.quality_assur,
-    title: "Communication",
+    title: "AI and Machine Learning",
     description:
-      "They maintain open communication between teams and stakeholders, ensuring alignment and clarity on project goals.",
+      "Implementation of AI-driven systems for data analysis, automation, and predictive insights to enhance business processes.",
   },
   {
     id: "collective_4",
     icon: Icons.quality_assur,
-    title: "Strategic Alignment",
+    title: "Cloud Computing Services",
     description:
-      "They ensure projects align with and contribute to the organisation’s strategic objectives.",
+      "Cloud strategy, migration, and infrastructure management to ensure scalability, flexibility, and security for businesses.",
   },
   {
     id: "collective_5",
     icon: Icons.quality_assur,
-    title: "Scope Management",
+    title: "UI/UX Design",
     description:
-      "Changes in project scope or resources, adapting strategies to ensure successful outcomes.",
+      "Creating intuitive, user-centered designs to deliver seamless and visually appealing digital experiences.",
   },
   {
     id: "collective_6",
     icon: Icons.quality_assur,
-    title: "Quality Assurance",
+    title: "Quality Assurance and Testing",
     description:
-      "Oversee project standards and quality, ensuring outputs meet or exceed expectations.",
+      "End-to-end software testing services, including functional, performance, and automation testing, to ensure flawless product delivery.",
   },
 ];
 
-export const FRAMEWORK_DATA = [
+export const  Project_DATA = [
   {
-    id: "framework_1",
-    image: Images.framework1,
-    title: "Requirements Management",
+    id: " Project_1",
+    image: Images. Project1,
+    title: "SmartHire AI : Transforming Recruitment with AI-Powered Solutions",
     description:
-      "Track project progress, health, risks, and status. Log feedback, and monitor scope creep to ensure stakeholders are always informed, providing a clear and up-to-date understanding of the project's status for effective decision-making and smoother execution.",
-  },
+      "Developed a cutting-edge recruitment platform that leverages artificial intelligence to automate job matching, candidate screening, and resume analysis, reducing hiring time by 40% and improving candidate quality for businesses worldwide."
+    },
   {
-    id: "framework_2",
-    image: Images.framework2,
-    title: "Automatic BPMN 2.0 Generation",
+    id: " Project_2",
+    image: Images. Project2,
+    title: "FinTrack360 : Revolutionizing Financial Management for SMEs",
     description:
-      "Leverage intuitive AI to create Process Maps, User Journeys, and flows automatically. Generate diagrams for each feature effortlessly, eliminating the need for manual layout and streamlining the visualization process.",
-  },
+      "Designed a comprehensive financial tracking app tailored for small and medium enterprises, offering real-time expense monitoring, automated budgeting tools, and AI-driven financial insights to boost profitability and efficiency"
+    },
   {
-    id: "framework_3",
-    image: Images.framework3,
-    title: "Test Automation",
+    id: " Project_3",
+    image: Images. Project3,
+    title: "EduSphere Learning Hub : Empowering Education Through Immersive Technology",
     description:
-      "Simplify the creation of Acceptance Criteria and execution of automated test scripts. Track testing progress and eliminate the need for manual testing, enhancing efficiency and accuracy in the testing process.",
-  },
+      "Built an interactive e-learning platform that incorporates gamification, AI-based personalized learning paths, and augmented reality tools to create an engaging and adaptive learning experience for students of all ages."
+    },
   {
-    id: "framework_4",
-    image: Images.framework4,
-    title: "Integrate into your existing ecosystem",
+    id: " Project_4",
+    image: Images. Project4,
+    title: "HealthSync Pro : Streamlining Healthcare Operations with Smart Integration",
     description:
-      "Integrate into your existing ecosystem seamlessly by syncing Reqops with tools like Jira, Azure, and Asana. Continue using your preferred tools while Reqops creates and manages your tickets, saving you the time and effort of manual ticket creation.",
-  },
+      "Engineered a robust healthcare management system that integrates patient data, telemedicine services, and AI diagnostics to improve patient outcomes and streamline operations for hospitals and clinics globally."
+    },
 ];

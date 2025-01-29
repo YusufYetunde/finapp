@@ -1,7 +1,7 @@
 import { Images } from "../../assets/images";
 import { motion } from "framer-motion";
 
-const ProcessMap = () => {
+const Contact = () => {
   return (
     <section className="max-w-[1200px] mx-auto py-[65px] text-black px-4">
       <div className="grid lg:grid-cols-2 gap-6 items-center">
@@ -55,4 +55,4 @@ const ProcessMap = () => {
   );
 };
 
-export default ProcessMap;
+export default Contact;

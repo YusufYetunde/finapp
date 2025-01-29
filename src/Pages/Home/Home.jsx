@@ -1,9 +1,9 @@
 import CollectiveDelivery from "../../components/Home/collectivedelivery";
 import Features from "../../components/Home/features";
-import Framework from "../../components/Home/Framwork";
+import  Project from "../../components/Home/Framwork";
 import FeaturesGrid from "../../components/Home/Grid";
 import JoinUs from "../../components/Home/Joinus";
-import ProcessMap from "../../components/Home/ProcessMap";
+import Contact from "../../components/Home/Contact";
 import UpliftDelivery from "../../components/Home/upliftdelivery";
 
 
@@ -15,8 +15,8 @@ const Home = () => {
       <FeaturesGrid/>
       <UpliftDelivery/>
       <CollectiveDelivery/>
-      <Framework/>
-      <ProcessMap/>
+      < Project/>
+      <Contact/>
       <JoinUs/>
     </div>
   )

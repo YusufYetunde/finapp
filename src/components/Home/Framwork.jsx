@@ -1,8 +1,8 @@
-import { FRAMEWORK_DATA } from  "../../data/data"
+import {  Project_DATA } from  "../../data/data"
 
-const Framework = () => {
+const  Project = () => {
 
-  const frameworkGridSettings = [
+  const  ProjectGridSettings = [
     {
       cardGradientBefore:
         "before:content-[''] before:  before:absolute before:w-[300px] before:h-[300px] before:-top-[25%] before:-right-[5%] before:blur-[30px] before:rounded-full",
@@ -33,23 +33,23 @@ const Framework = () => {
     <section className="lg:py-[65px] py-10 text-black px-4">
       <div className="max-w-[1200px] mx-auto">
         <h3 className="lg:text-3xl md:text-2xl text-xl text-center font-semibold max-w-[767px] mx-auto">
-          Transform work practices forever. <br /> Our Framework for the future:
+          Transform work practices forever. <br /> Our  Project for the future:
         </h3>
         <div className="grid xxl:gap-y-[30px] xl:gap-y-6 gap-y-4 items-start lg:mt-[65px] mt-10">
-          {FRAMEWORK_DATA?.map(({ id, title, image, description }, index) => {
+          { Project_DATA?.map(({ id, title, image, description }, index) => {
             return (
               <div
                   className={`rounded-3xl bg-jet h-full grid items-center md:grid-cols-2 ${
-                    FRAMEWORK_DATA?.length - 1 === index
+                     Project_DATA?.length - 1 === index
                       ? "lg:ps-10 ps-6"
                       : "lg:py-12 lg:px-10 py-8 px-6"
                   } xxl:gap-20 xl:gap-16 lg:gap-12 gap-10 relative overflow-hidden ${
-                    frameworkGridSettings[index].cardGradientBefore
-                  } ${frameworkGridSettings[index].cardGradientAfter}`}
+                     ProjectGridSettings[index].cardGradientBefore
+                  } ${ ProjectGridSettings[index].cardGradientAfter}`}
                 >
                   <div
                     className={`relative z-10 ${
-                      FRAMEWORK_DATA?.length - 1 === index &&
+                       Project_DATA?.length - 1 === index &&
                       "lg:py-10 pt-6 pe-6"
                     }`}
                   >
@@ -70,4 +70,4 @@ const Framework = () => {
   );
 };
 
-export default Framework;
+export default  Project;

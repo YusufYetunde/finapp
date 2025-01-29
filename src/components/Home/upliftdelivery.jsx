@@ -8,7 +8,7 @@ const UpliftDelivery = () => {
     <section className="lg:py-[65px] py-10 px-4">
       <div className="max-w-[1200px] mx-auto">
         <h3 className="text-center text-black font-montserrat lg:text-3xl md:text-2xl text-xl font-semibold">
-          Uplift Your Delivery Squad
+          How we Work
         </h3>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 xxl:gap-10 xl:gap-8 lg:gap-6 gap-4 lg:mt-10 md:mt-8 mt-6">
           {UPLIFT_DELIVERY_DATA?.map(

@@ -1,4 +1,4 @@
-import { COLLECTIVE_DELIVERY_DATA } from "../../data/data";
+import { Services_DATA } from "../../data/data";
 import { motion } from "framer-motion";
 
 const CollectiveDelivery = () => {
@@ -11,7 +11,7 @@ const CollectiveDelivery = () => {
         <h4 className="text-center lg:text-lg md:text-md text-xs font-montserrat max-w-[986px] mx-auto">Behind Every Great Delivery</h4>
       </div>
       <div className="lg:mt-[90px] md:mt-16 mt-12 grid lg:grid-cols-3 sm:grid-cols-2 lg:gap-y-[70px] md:gap-y-16 gap-y-12 lg:gap-x-[100px] md:gap-x-16 gap-x-12">
-        {COLLECTIVE_DELIVERY_DATA?.map(({ id, title, icon, description }) => {
+        {Services_DATA?.map(({ id, title, icon, description }) => {
           return (
             <motion.div
               key={id}
